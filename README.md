@@ -17,13 +17,6 @@ De novo peptide sequencing from mass spectrometry (MS) data is a critical task i
   conda env create -f environment.yml
   ```
 
-- Install the Pytorch 1.13.0.
-
-  ```
-  #Example:
-  pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
-  ```
-
 - Download ContraNovo checkpoint from google drive.
 
   ```
