@@ -8,7 +8,7 @@ De novo peptide sequencing from mass spectrometry (MS) data is a critical task i
 
 #### Reproduce Steps
 
-- To get resource and create the conda environment.
+- Get resource and create the conda environment.
 
   ```
   git clone git@github.com:BEAM-Labs/ContraNovo.git
@@ -17,11 +17,17 @@ De novo peptide sequencing from mass spectrometry (MS) data is a critical task i
   conda env create -f environment.yml
   ```
 
-- To install the torch 1.13.0.
+- Install the Pytorch 1.13.0.
 
   ```
   #Example:
   pip install torch==1.13.0+cu117 torchvision==0.14.0+cu117 torchaudio==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu117
+  ```
+
+- Download ContraNovo checkpoint from google drive.
+
+  ```
+  The link of ContraNovo.ckpt:https://drive.google.com/file/d/1knNUqSwPf98j388Ds2E6bG8tAXx8voWR/view?usp=drive_link
   ```
 
 - Run ContraNovo test on bacillus.10k.mgf
@@ -31,4 +37,3 @@ De novo peptide sequencing from mass spectrometry (MS) data is a critical task i
   ```
 
   
-
