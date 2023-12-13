@@ -11,7 +11,7 @@ De novo peptide sequencing from mass spectrometry (MS) data is a critical task i
 - To get resource and create the conda environment.
 
   ```
-  git clone git@
+  git clone git@github.com:BEAM-Labs/ContraNovo.git
   cd ContraNovo
   conda env create -f environment.yml
   ```
