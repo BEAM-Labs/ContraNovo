@@ -17,8 +17,8 @@ This repository contains inference code for **A Contrastive Learning Approach to
 
 - Download ContraNovo checkpoint  and Bacillus.10k.mgf from google drive.
 
-  [ContraNovo.ckpt]:https://drive.google.com/file/d/1knNUqSwPf98j388Ds2E6bG8tAXx8voWR/view?usp=drive_link
-  [Bacillus.10k.mgf]: https://drive.google.com/file/d/1HqfCETZLV9ZB-byU0pqNNRXbaPbTAceT/view?usp=drive_link
+  ContraNovo.ckpt ：https://drive.google.com/file/d/1knNUqSwPf98j388Ds2E6bG8tAXx8voWR/view?usp=drive_link
+  Bacillus.10k.mgf : https://drive.google.com/file/d/1HqfCETZLV9ZB-byU0pqNNRXbaPbTAceT/view?usp=drive_link
 
 - Run ContraNovo test on bacillus.10k.mgf
 
