@@ -539,7 +539,7 @@ class PeptideDecoder(_PeptideTransformer):
         # self.finalMassLinearLayer = torch.nn.Sequential(torch.nn.Linear(1,256),torch.nn.PReLU(),torch.nn.Linear(256,256)) 
         self.finalCharMass = torch.nn.Parameter(torch.randn(1))
 
-        self.final = torch.nn.Linear(dim_model, len(self._amino_acids) + 1)
+        # self.final = torch.nn.Linear(dim_model, len(self._amino_acids) + 1)
 
     def forward(self, sequences, precursors, memory, memory_key_padding_mask):
         """Predict the next amino acid for a collection of sequences.
@@ -658,9 +658,9 @@ class PeptideDecoder(_PeptideTransformer):
         preds = self.logit_scale * preds @ final_martix.t()
 
         # return preds,tokens
-        # return torch.softmax(preds,dim=2), tokens
+        return torch.softmax(preds,dim=2), tokens
 
-        return torch.softmax(self.final(preds),dim=2), tokens
+        # return torch.softmax(self.final(preds),dim=2), tokens
 
 
 def generate_tgt_mask(sz):
