@@ -353,7 +353,6 @@ def train(
                                       num_processes=4,
                                       log_probs_input = False)
     model_params = dict(
-        custom_ctc_loss = config["custom_ctc"],
         dim_model=config["dim_model"],
         n_head=config["n_head"],
         dim_feedforward=config["dim_feedforward"],
