@@ -62,7 +62,7 @@ tb_summarywriter:
 # Neptune logger
 enable_neptune: True
 neptune_project: "DeNovo/clip"
-neptune_api_token: "eyJhcGlfYWRkcmVzcyI6Imh0dHBzOi8vYXBwLm5lcHR1bmUuYWkiLCJhcGlfdXJsIjoiaHR0cHM6Ly9hcHAubmVwdHVuZS5haSIsImFwaV9rZXkiOiI2NjJiN2M5NC1mNzk3LTRmMDktYjU0OC1kYzQxODY0MmI2MDYifQ==" 
+neptune_api_token: 
 tags: ["9-speice", "bacillus","Lr = 0.0002 dp 0.15,0.4"]
 
 # Use epochs instead of iters
