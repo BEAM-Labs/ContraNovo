@@ -195,9 +195,9 @@ def main(
     if mode == "denovo":
         logger.info("Predict peptide sequences with ContraNovo.")
         writer = None
-        writer.set_metadata(
-            config, peak_path=peak_path, model=model, config_filename=config_fn
-        )
+        # writer.set_metadata(
+        #     config, peak_path=peak_path, model=model, config_filename=config_fn
+        # )
         model_runner.predict(peak_path, model, config, writer)
         writer.save()
     elif mode == "eval":
