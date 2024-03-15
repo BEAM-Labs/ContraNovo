@@ -311,9 +311,7 @@ def train(
         n_workers=config["n_workers"],
         train_filenames = train_filenames,
         val_filenames = val_filenames,
-        test_filenames = test_filenames,
-        
-        
+        test_filenames = test_filenames,      
         train_index_path = train_index_path, #always a list, either a list containing one index path file or a list containing multiple db files 
         val_index_path = val_index_path,
         test_index_path = test_index_path,
