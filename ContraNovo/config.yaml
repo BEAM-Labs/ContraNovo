@@ -64,6 +64,9 @@ enable_neptune: True
 neptune_project: "DeNovo/clip"
 neptune_api_token: 
 tags: ["9-speice", "bacillus","Lr = 0.0002 dp 0.15,0.4"]
+n_nodes: 1
+train_from_resume: False
+
 
 # Use epochs instead of iters
 warmup_iters: 
